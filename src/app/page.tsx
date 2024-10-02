@@ -1,0 +1,10 @@
+import Todo from "@/components/Todo";
+import styles from "./page.module.css";
+
+export default function Home() {
+  return (
+    <div className="">
+      <Todo/>
+    </div>
+  );
+}
